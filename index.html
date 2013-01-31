@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+	<title>Starving in The Belly of the Whale - The Music of Richard Lee Terrell Junior</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="/favicon.ico" >
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link href="css/mb.YTVPlayer.css" media="all" rel="stylesheet" type="text/css">
+	<link href="css/1140.css" media="all" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" media="all" rel="stylesheet" type="text/css">
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.metadata.js"></script>
+	<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	<script type="text/javascript">
+
+		$(function(){
+
+			$("button").not(".command").click(function(){
+				$("button").not(".command").removeClass("sel");
+				$(this).addClass("sel");
+			});
+
+      //debug functions
+			$(document).bind("YTPStart", function(){ $("#eventListener").html("YTPStart")});
+			$(document).bind("YTPEnd", function(){ $("#eventListener").html("YTPStop")});
+			$(document).bind("YTPPause", function(){ $("#eventListener").html("YTPPause")});
+			$(document).bind("YTPBuffering", function(){ $("#eventListener").html("YTPBuffering")});
+
+      $("#bgndVideo").mb_YTPlayer();
+
+		});
+
+	</script>
+
+</head>
+<body>
+<a id="bgndVideo" href="http://www.youtube.com/watch?v=vOxsiPUkofY" class="movie {opacity:.8, isBgndMovie:{width:'window',mute:false}, optimizeDisplay:true, showControls:true, ratio:'16/9', loop: true, quality:'default',addRaster:true, lightCrop:true}">vito acconci theme song 1973</a>
+<div class="container header">
+	<div class="row">
+		<div class="sixcol"><img id="name" src="images/richard-terrell.gif" alt="the music of Richard Terrell" title="The Music of Richard Terrell"></div>
+		<div class="twocol"><a class="download" href="#download-albums">Download Albums</a></div>
+		<div class="twocol"><a class="donate" href="#make-a-donation">Make A Donation</a></div>
+		<div class="twocol last"><a class="social" href="#social-media">Social Media</a></div>
+	</div> <!--/row-->
+</div> <!--/container-->
+<div class="container logo">
+	<div class="row">
+		<div class="twelvecol">
+			<!--<img id="sitbow-text" src="images/sitbow-large.png" width="733" height="398" />-->
+			<img id="sitbow-photo" src="images/sitbow-photo.jpg" />
+		</div>
+	</div>
+</div>
+<div id="download-albums" class="container section">
+	<div class="row">
+		<div class="sixcol title-description">
+			<h1 class="century">Download Albums</h1>
+			<p>All music is free to download, it's asked that you please make a donation to Starving in the Belly of the Whale to support future and current releases, and the the resources that make all our media possible.</p>
+		</div>
+		<div class="twocol album">
+			<!--<a href="albums/The Foolish Fellow.zip">-->
+				<img src="images/album5.jpg" alt="The Foolish Fellow" title="The Foolish Fellow" width="150" height="150" />
+				<p>The Foolish Fellow<span>Available April 20th, 2013</span></p>
+			<!--</a>-->
+		</div>
+		<div class="twocol album">
+			<a href="albums/The Almond Tree.zip">
+				<img src="images/album4.jpg" alt="The Almond Tree E.P." title="The Almond Tree E.P." width="150" height="150" />
+				<p>The Almond Tree E.P.<span>2012</span></p>
+			</a>
+			<p class="extra-link"><a href="http://www.thealmondtreemovie.com/" target="_blank"><em>(See the Film)</em></a></p>
+		</div>
+		<div class="twocol album last">
+			<a href="albums/The Journey Less Traveled.zip">
+				<img src="images/album3.jpg" alt="The Journey Less Traveled" title="The Journey Less Traveled" width="150" height="150" />
+				<p>The Journey Less Traveled<span>2011</span></p>
+			</a>
+		</div>
+		<div class="twocol album">
+			<a href="albums/You Look Like You've Seen the Devil.zip">
+				<img src="images/album2.jpg" alt="You Look Like You've Seen the Devil" title="You Look Like You've Seen the Devil" width="150" height="150" />
+				<p>You Look Like You've Seen the Devil<span>2010</span></p>
+			</a>
+		</div>
+		<div class="twocol album">
+			<a href="albums/RA17h3m46 60s D-31 40'59 14.zip">
+				<img src="images/album1.jpg" alt="RA17h3m46 60s D-31 40'59 14&quote;" title="RA17h3m46 60s D-31 40'59 14&quote;" width="150" height="150" />
+				<p>RA17h3m46 60s D-31 40'59 14"<span>2009</span></p>
+			</a>
+		</div>
+	</div>
+</div>
+<div id="watch-video" class="container section">
+	<div class="row">
+		<div class="sixcol title-description">
+			<h1 class="century">Little Blue Dress</h1>
+			<p>A new song from the upcoming album "The Foolish Fellow" Coming April 22nd 2013</p>
+		</div>
+		<div class="sixcol">
+			<a href="http://www.youtube.com/embed/hWJebAjsf9c" target="_blank"><img src="images/placeholder.jpg"></a>
+		</div>
+	</div>
+</div>
+<div id="make-a-donation" class="container section">
+	<div class="row">
+		<div class="sixcol title-description">
+			<h1 class="century">Make a Donation</h1>
+			<p>Support free, independent music. All of my albums are available for free download, be sure to check them out. If you like what you've heard, I encourage you to please make a donation to help me continue to record quality albums, produce videos, and promote my music.</p>
+			<br />
+			
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			  <input type="hidden" name="cmd" value="_s-xclick">
+			  <input type="hidden" name="hosted_button_id" value="Y55FJGW2LCSUW">
+			  <input type="submit" value="&raquo; make a donation" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>			
+		</div>
+		<div class="sixcol donate-image last">
+			<img src="images/donate.jpg" title="" alt="" />
+		</div>
+	</div>
+</div>
+<div id="social-media" class="container section">
+	<div class="row">
+		<div class="sixcol title-description">
+			<h1 class="century">Social Media</h1>
+			<p>Follow Starving in the Belly of the Whale on Twitter, Facebook, Instagram and Youtube.  Feel free to drop me a line about booking opportunities.</p>
+		</div>
+		<div class="twocol album">
+			<a href="http://www.twitter.com/rlterrell">
+				<img src="images/twitter.png" alt="Twitter" title="Twitter" width="150" height="150" />
+				<p>Twitter</p>
+			</a>
+		</div>
+		<div class="twocol album">
+			<a href="http://www.facebook.com/starvinginthebellyofthewhale">
+				<img src="images/facebook.png" alt="Facebook" title="Facebook" width="150" height="150" />
+				<p>Facebook</p>
+			</a>
+		</div>
+		<div class="twocol album last">
+			<a href="http://www.youtube.com/user/sitbotw">
+				<img src="images/youtube.png" alt="Youtube" title="Youtube" width="150" height="150" />
+				<p>Youtube</p>
+			</a>
+		</div>
+		<div class="twocol album">
+			<a href="http://instagram.com/rickyterrell/">
+				<img src="images/instagram.png" alt="iTunes" title="iTunes" width="150" height="150" />
+				<p>Instagram</p>
+			</a>
+		</div>
+		<div class="twocol album">
+			<a href="https://itunes.apple.com/us/artist/starving-in-belly-whale/id345199488">
+				<img src="images/itunes.png" alt="iTunes" title="iTunes" width="150" height="150" />
+				<p>iTunes</p>
+			</a>
+		</div>
+		<div class="twocol album last">
+			<a href="mailto:rickyterrell81@hotmail.com">
+				<img src="images/email.png" alt="email" title="Email" width="150" height="150" />
+				<p>Email Contact</p>
+			</a>
+		</div>
+	</div>
+</div>
+<div id="footer" class="container">
+	<div class="row">
+		<div class="twelvecol">
+			&copy; Copyright Starving in the Belly of the Whale
+		</div>
+	</div>
+</div>
+<div class="dida"></div>
+
+<script type="text/javascript">
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+	$("body").addClass("mobile");
+	$("#name").attr("src", "images/richard-terrell-center.gif");
+} else {
+	$(".download").attr("id", "#watch-video");
+	var timer;
+	$(".header a").hover(
+		function() {
+			clearTimeout( timer );
+			$('.section').hide();
+			var block = $(this).attr("href");
+			$(block).show();	
+		},
+		function() {
+			timer = setTimeout(function(){$('.section').hide()},500);
+		}
+	);
+
+	$(".section").hover(
+		function() {
+			clearTimeout( timer );
+		},
+		function() {
+			timer = setTimeout(function(){$('.section').hide()},500);
+		}
+	);
+}
+</script>
+
+<script type="text/javascript">
+/* http://www.blog.highub.com/mobile-2/a-fix-for-iphone-viewport-scale-bug/ */
+if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+	var viewportmeta = document.querySelector('meta[name="viewport"]');
+	if (viewportmeta) {
+		viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0';
+		document.body.addEventListener('gesturestart', function() {
+			viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+		}, false);
+	}
+}
+</script>
+</body>
+
+</html>
