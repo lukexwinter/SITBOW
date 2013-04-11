@@ -38,6 +38,8 @@ a:hover { color: #f26223;}
 .title-description p { font-size: .875em; line-height: 1.75; }
 .title-description h1, .title-description p, .title-description form  { padding: 0 17.7798165%; }
 
+#social-media .title-description p { height: 400px; }
+
 form input[type="submit"]{
     background: none;
     border: none;
