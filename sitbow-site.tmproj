@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>index.html</string>
+	<string>css/styles.css</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -65,12 +65,42 @@
 				<integer>54</integer>
 			</dict>
 		</dict>
+		<key>css/styles copy.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>40</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>53</integer>
+				<key>line</key>
+				<integer>40</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>40</integer>
+			</dict>
+		</dict>
 		<key>css/styles.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>124</integer>
+				<integer>3771</integer>
 				<key>line</key>
 				<integer>0</integer>
 			</dict>
@@ -84,14 +114,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>232</integer>
+				<integer>33</integer>
 				<key>line</key>
-				<integer>130</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>88</integer>
+			<integer>0</integer>
 		</dict>
 		<key>js/css3-mediaqueries.js</key>
 		<dict>
@@ -155,6 +185,7 @@
 		<string>index.html</string>
 		<string>js/css3-mediaqueries.js</string>
 		<string>css/styles.css</string>
+		<string>css/styles copy.css</string>
 		<string>css/1140.css</string>
 		<string>css/mb.YTVPlayer.css</string>
 		<string>js/jquery.mb.YTPlayer.js</string>
@@ -164,6 +195,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{249, 162}, {1564, 962}}</string>
+	<string>{{547, 146}, {1564, 962}}</string>
 </dict>
 </plist>
