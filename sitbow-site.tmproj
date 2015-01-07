@@ -114,14 +114,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>6</integer>
+				<integer>56</integer>
 				<key>line</key>
-				<integer>118</integer>
+				<integer>67</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>80</integer>
+			<integer>30</integer>
 		</dict>
 		<key>js/css3-mediaqueries.js</key>
 		<dict>
