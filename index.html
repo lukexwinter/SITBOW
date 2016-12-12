@@ -8,14 +8,13 @@
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<link href="css/mb.YTVPlayer.css" media="all" rel="stylesheet" type="text/css">
+	<link href="css/jquery.mb.YTPlayer.css" media="all" rel="stylesheet" type="text/css">
 	<link href="css/1140.css" media="all" rel="stylesheet" type="text/css">
 	<link href="css/styles.css" media="all" rel="stylesheet" type="text/css">
-	
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>-->
 	<script type="text/javascript" src="js/jquery.metadata.js"></script>
-	<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+	<script type="text/javascript" src="js/jquery.mb.YTPlayer.min.js"></script>
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 	<script type="text/javascript">
 
@@ -40,11 +39,11 @@
 
 </head>
 <body>
-<a id="bgndVideo" href="http://www.youtube.com/watch?v=HAkQabEKaIQ" class="movie {opacity:.8, isBgndMovie:{width:'window',mute:false}, optimizeDisplay:true, showControls:true, ratio:'16/9', loop: true, quality:'default',addRaster:true, lightCrop:true}"></a>
+	<div id="bgndVideo" class="player" style="height: 100vh; min-height: 100vh;" data-property="{videoURL:'https://youtu.be/AmBw7yTCseU',containment:'self',autoPlay:true, mute:false, startAt:0, opacity:1}"></div>
 <div class="container header">
 	<div class="row">
 		<div class="sixcol"><img id="name" src="images/sitbow-title.gif" alt="the music of Starving in the Belly of the Whale" title="The Music of Starving in the Belly of the Whale"></div>
-		<div class="twocol"><a class="download" href="#download-albums">Download Music</a></div>
+		<div class="twocol"><a class="download" href="#download-albums">Our Music</a></div>
 		<div class="twocol"><a class="donate" href="#make-a-donation">Make A Donation</a></div>
 		<div class="twocol last"><a class="social" href="#social-media">Social Media</a></div>
 	</div> <!--/row-->
@@ -60,47 +59,48 @@
 <div id="download-albums" class="container section">
 	<div class="row">
 		<div class="sixcol title-description">
-			<h1 class="century">Download Music</h1>
-			<p>The entire Starving in the Belly of the Whale musical catalog is available for free download.   Click on an album cover and it will instantly download to your computer.  All music and media continues to be supported by fans through electronic and physical monetary donations.</p>
+			<h1 class="century">Our Music</h1>
+			<p>Purchase Starving in the Belly of the Whale's new album Conversation(s) on 150 gram vinyl.<br /><br />All music and media continues to be supported by fans through electronic and physical monetary donations.</p>
+			<!--
+				<p>The entire Starving in the Belly of the Whale musical catalog is available for free download.   Click on an album cover and it will instantly download to your computer.  All music and media continues to be supported by fans through electronic and physical monetary donations.</p>
+			-->
 		</div>
 		<div class="sixcol last">
 			<h3>Long Playing</h3>
 			<div class="fourcol album">
-				<a href="albums/Missionaries and Impostors.zip">
-					<img src="images/album5.jpg" alt="Missionaries and Impostors" title="Missionaries and Impostors" width="150" height="150" />
-					<p>Missionaries &amp; Impostors<span>2014</span></p>
+				<a href="https://starvinginthebellyofthewhale.bandcamp.com/album/conversation-s" target="_blank"><img src="images/album6.jpg" alt="Missionaries and Impostors" title="Missionaries and Impostors" width="150" height="150" />
+					<p>Conversation(s)<span>Available 12.17.2016</span><br />(Pre-order Vinyl)</p>
 				</a>
 			</div>
 			<div class="fourcol album">
-				<a href="albums/The Foolish Fellow.zip">
-					<img src="images/album4.jpg" alt="The Foolish Fellow" title="The Foolish Fellow" width="150" height="150" />
-					<p>The Foolish Fellow<span>2013</span></p>
+				<a href="albums/Missionaries and Impostors.zip">
+					<img src="images/album5.jpg" alt="Missionaries and Impostors" title="Missionaries and Impostors" width="150" height="150" />
+					<p>Missionaries &amp; Impostors<span>2014</span><br />(Download Album)</p>
 				</a>
 			</div>
 			<div class="fourcol album last">
-				<a href="albums/The Journey Less Traveled.zip">
-					<img src="images/album3.jpg" alt="The Journey Less Traveled" title="The Journey Less Traveled" width="150" height="150" />
-					<p>The Journey Less Traveled<span>2011</span></p>
-				</a>
+				<img src="images/album4.jpg" alt="The Foolish Fellow" title="The Foolish Fellow" width="150" height="150" />
+				<p>The Foolish Fellow<span>2013</span></p>
+				<br />
 			</div>
 			<div class="fourcol album">
-				<a href="albums/You Look Like You've Seen the Devil.zip">
-					<img src="images/album2.jpg" alt="You Look Like You've Seen the Devil" title="You Look Like You've Seen the Devil" width="150" height="150" />
-					<p>You Look Like You've Seen the Devil<span>2010</span></p>
-				</a>
+				<img src="images/album3.jpg" alt="The Journey Less Traveled" title="The Journey Less Traveled" width="150" height="150" />
+				<p>The Journey Less Traveled<span>2011</span></p>
 			</div>
 			<div class="fourcol album">
-				<a href="albums/RA17h3m46 60s D-31 40'59 14.zip">
-					<img src="images/album1.jpg" alt="RA17h3m46 60s D-31 40'59 14&quote;" title="RA17h3m46 60s D-31 40'59 14&quote;" width="150" height="150" />
-					<p>RA17h3m46 60s D-31 40'59 14"<span>2009</span></p>
-				</a>
+				<img src="images/album2.jpg" alt="You Look Like You've Seen the Devil" title="You Look Like You've Seen the Devil" width="150" height="150" />
+				<p>You Look Like You've Seen the Devil<span>2010</span></p>
+			</div>
+			<div class="fourcol album last">
+				<img src="images/album1.jpg" alt="RA17h3m46 60s D-31 40'59 14&quote;" title="RA17h3m46 60s D-31 40'59 14&quote;" width="150" height="150" />
+				<p>RA17h3m46 60s D-31 40'59 14"<span>2009</span></p>
 			</div>
 			<div style="clear: both; padding: 7.5% 0;"></div>
 			<h3>Extended Play</h3>
-			<div class="fourcol album last">
+			<div class="fourcol album">
 				<a href="albums/RA17h3m46 60s D-31 40'59 14.zip">
 					<img src="images/ep2.jpg" alt="RA17h3m46 60s D-31 40'59 14&quote;" title="RA17h3m46 60s D-31 40'59 14&quote;" width="150" height="150" />
-					<p>4 - 13<span>2015</span></p>
+					<p>4 - 13<span>2015</span><br />(Download E.P.)</p>
 				</a>
 			</div>
 			<div class="fourcol album last">
@@ -108,6 +108,7 @@
 					<img src="images/ep1.jpg" alt="The Almond Tree E.P." title="The Almond Tree E.P." width="150" height="150" />
 					<p>The Almond Tree E.P.<span>2012</span></p>
 				</a>
+				<br />
 				<p class="extra-link"><a href="http://www.thealmondtreemovie.com/" target="_blank"><em>(See the Film)</em></a></p>
 			</div>
 		</div>
@@ -117,11 +118,11 @@
 <div id="watch-video" class="container section">
 	<div class="row">
 		<div class="sixcol title-description">
-			<h1 class="century">Speak Like a Poet (Live)</h1>
-			<p>Watch Starving in the Belly of the Whale's <em>Speak Like a Poet</em> performed live from their latest album, Missionaries &amp; Impostors.</p>
+			<h1 class="century">You Found My Heart</h1>
+			<p>Watch Starving in the Belly of the Whale's latest music video for<em>You Found My Heart</em> featured on the new Conversation(s) album.</p>
 		</div>
 		<div class="sixcol last">
-			<a href="https://www.youtube.com/embed/HAkQabEKaIQ" target="_blank"><img src="images/placeholder.jpg"></a>
+			<a href="https://youtu.be/AmBw7yTCseU" target="_blank"><img src="images/placeholder.jpg"></a>
 		</div>
 	</div>
 </div>
@@ -153,9 +154,9 @@
 			<p>For the most current news and updates, follow Starving in the Belly of the Whale on Twitter, Facebook, Instagram and Youtube.  Please email any questions, comments, booking inquiries and opinions to the provided email address. Preview select songs from each release at Bandcamp.</p>
 		</div>
 		<div class="twocol album">
-			<a href="http://www.twitter.com/rlterrell">
-				<img src="images/twitter.png" alt="Twitter" title="Twitter" width="150" height="150" />
-				<p>Twitter</p>
+			<a href="http://starvinginthebellyofthewhale.bandcamp.com/">
+				<img src="images/bandcamp.png" alt="email" title="Email" width="150" height="150" />
+				<p>Bandcamp</p>
 			</a>
 		</div>
 		<div class="twocol album">
@@ -171,24 +172,23 @@
 			</a>
 		</div>
 		<div class="twocol album">
-			<a href="http://instagram.com/rickyterrell/">
-				<img src="images/instagram.png" alt="Instagram" title="Instagram" width="150" height="150" />
-				<p>Instagram</p>
-			</a>
-		</div>
-		<div class="twocol album">
-			<a href="http://starvinginthebellyofthewhale.bandcamp.com/">
-				<img src="images/bandcamp.png" alt="email" title="Email" width="150" height="150" />
-				<p>Bandcamp</p>
-			</a>
-		</div>
-		<div class="twocol album last">
 			<a href="mailto:rickyterrell81@hotmail.com">
 				<img src="images/email.png" alt="email" title="Email" width="150" height="150" />
 				<p>Email Contact</p>
 			</a>
 		</div>
-		
+		<div class="twocol album">
+			<a href="http://www.twitter.com/rlterrell">
+				<img src="images/twitter.png" alt="Twitter" title="Twitter" width="150" height="150" />
+				<p>Twitter</p>
+			</a>
+		</div>
+		<div class="twocol album last">
+			<a href="http://instagram.com/rickyterrell/">
+				<img src="images/instagram.png" alt="Instagram" title="Instagram" width="150" height="150" />
+				<p>Instagram</p>
+			</a>
+		</div>
 	</div>
 </div>
 <div id="footer" class="container">
@@ -216,7 +216,8 @@ if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) 
 <!--Smooth Scroll Nav Links-->
 <script type="text/javascript">	
 	$(document).ready(function(){
-		$(".header a").bind("click",function(event){
+		$(".header a").click(function(event){
+			event.preventDefault();
 			var $anchor = $(this);
 			history.pushState({}, "", this.href);
 		$("html, body").stop().animate({
